@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+}
+a, a:hover{
+	color:black;
+}
+
+
+body{
+
+}
+
+#formulario{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.form-control{
+	height: 45px;
+    font-size: 20px;
+}
+
+#degradado{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+	background: #00baa1;
+	background: -moz-linear-gradient(top, #00baa1 43%, #1570ef 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(43%,#00baa1), color-stop(100%,#1570ef));
+	background: -webkit-linear-gradient(top, #00baa1 43%,#1570ef 100%);
+	background: -o-linear-gradient(top, #00baa1 43%,#1570ef 100%);
+	background: -ms-linear-gradient(top, #00baa1 43%,#1570ef 100%);
+	background: linear-gradient(to bottom, #00baa1 43%,#1570ef 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00baa1', endColorstr='#1570ef',GradientType=0 );
+}
+
+.cora{
+	color:#e74c3c;
+}
+
+#copy{
+	color:#ecf0f1;
+	position: absolute;
+	width: 100%;
+	bottom: 3%;
+	text-align: center;
+}
+
+@media (max-width: 530px) {
+  #formulario {
+    width: 95%;
+  }
+}
