@@ -1,5 +1,5 @@
 # App teamspeak 3 channels web
-![webapp temspeak 3](http://puu.sh/kjvcQ/a14b008081.png)
+![webapp temspeak 3](http://puu.sh/kjvEB/787b0f8fd6.png)
 
 # Configuracion
 
