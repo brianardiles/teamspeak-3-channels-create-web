@@ -26,8 +26,8 @@
 <div id="degradado"></div>
 <div id="formulario">
 	<form method="post" action="crear.php">
-		<input class="form-control" type="text" placeholder="nombre del channel papu" size="30" name="name"><br>
-		<input class="form-control" type="text" placeholder="id unica (ctrl + i papu)" size="30" name="idts"><br>
+		<input class="form-control" type="text" placeholder="Nombre del channel" size="30" name="name"><br>
+		<input class="form-control" type="text" placeholder="Unique ID (ctl + i) para obtenerla" size="30" name="idts"><br>
 	 	<input class="btn btn-default btn-lg" type="submit" name="submit" value="Crear channel">
 	 </form>
 	 <br>
